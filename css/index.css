@@ -140,6 +140,17 @@ header i {
     background-color: rgb(0, 4, 17);
 }
 
+.spacer-q {
+    width: 100%;
+    height: 4vh;
+    background-color: rgb(0, 4, 17);
+}
+
+.spacer-qs {
+    width: 100%;
+    height: 3vh;
+    background-color: rgb(0, 4, 17);
+}
 
 /* gallery section */
 
@@ -187,7 +198,7 @@ header i {
 }
 
 .about p {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
 }
 
 .about-container {
