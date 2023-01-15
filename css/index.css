@@ -321,8 +321,32 @@ footer .email-signup .mail button {
 
 /* mobile media query */
 @media (max-width: 428px) {
+
     /* header section */
-    
+   
+    header {
+        width: 100%;
+        height: 80vh;
+    }
+
+    html, body{
+        width:100%;
+        overflow-x:hidden;
+        }
+
+    /* header section */
+    .header-title {
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 3.5rem;
+        display: block;
+        font-weight: lighter;
+    }
+
+    header .shortcut-bar ul {
+        flex-direction: column;
+    }
 
     /* gallery section */
     .gallery {
