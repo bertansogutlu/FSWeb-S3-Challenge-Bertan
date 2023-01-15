@@ -260,6 +260,11 @@ html, body{
 /* mobile media query */
 @media (max-width: 428px) {
 
+    header {
+        width: 100%;
+        height: 80vh;
+    }
+
     html, body{
         width:100%;
         overflow-x:hidden;
@@ -282,7 +287,16 @@ html, body{
     /* menu */
     .menu {
         background-image: none;
+        background-color: white;
     }
+
+    .menu h2 {
+        background-color: rgb(225, 239, 230);
+        color: rgb(0, 4, 17);
+        font-size: 6rem;
+        font-weight: light;
+    }
+
 
     /* footer section */
     footer {
