@@ -157,7 +157,8 @@ header i {
 
 .menu h2 {
     text-align: center;
-    padding-top: 5vh;
+    padding-top: 10vh;
+    font-size: 4.5rem;
 }
 
 /* footer section */
