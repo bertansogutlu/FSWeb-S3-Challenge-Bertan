@@ -361,6 +361,7 @@ html, body{
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+        border: none;
     }
 
     footer .shortcut {
