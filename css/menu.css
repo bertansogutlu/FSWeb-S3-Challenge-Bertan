@@ -151,8 +151,21 @@ header i {
     background-repeat: no-repeat;
 }
 
-.menu h2, h3, h4 ,p {
-    background-color: rgb(0, 4, 17, .8);
+.menu h2, h3, h4, p {
+    color: white;
+}
+
+.menu h3 {
+    font-size: 4rem;
+}
+
+.menu h4 {
+    font-size: 3rem;
+}
+
+.menu p {
+    font-size: 2rem;
+    font-weight: lighter;
 }
 
 .menu h2 {
@@ -160,6 +173,8 @@ header i {
     padding-top: 10vh;
     font-size: 4.5rem;
 }
+
+
 
 .menu-section-container {
     display: flex;
