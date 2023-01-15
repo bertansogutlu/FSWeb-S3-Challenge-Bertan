@@ -149,10 +149,18 @@ header i {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: rgb(0, 4, 17, .8);
 }
 
 .menu h2, h3, h4, p {
     color: white;
+}
+
+.menu h2 {
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    font-size: 4.5rem;
 }
 
 .menu h3 {
@@ -167,14 +175,6 @@ header i {
     font-size: 2rem;
     font-weight: lighter;
 }
-
-.menu h2 {
-    text-align: center;
-    padding-top: 10vh;
-    font-size: 4.5rem;
-}
-
-
 
 .menu-section-container {
     display: flex;
