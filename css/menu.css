@@ -189,6 +189,15 @@ header i {
     padding: 3vw 7vw;
 }
 
+.menu-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item h4, p {
+    width: 50%;
+}
+
 /* footer section */
 footer {
     width: 100%;
