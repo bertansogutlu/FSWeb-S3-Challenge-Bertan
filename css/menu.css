@@ -157,8 +157,9 @@ header i {
 
 .menu h2 {
     text-align: center;
-    padding-top: 8vh;
+    padding-top: 10vh;
     font-size: 4.5rem;
+    font-weight: bold;
     background-color: rgb(0, 4, 17, .8);
 }
 
