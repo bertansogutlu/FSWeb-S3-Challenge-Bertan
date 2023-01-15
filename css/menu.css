@@ -164,11 +164,11 @@ header i {
 
 .menu h3 {
     font-size: 4rem;
-    padding-bottom: 1.5vh;
 }
 
 .menu h4 {
     font-size: 3rem;
+    padding-right: 4vw;
 }
 
 .menu p {
@@ -191,11 +191,13 @@ header i {
 
 .menu-item {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    padding: 1.5vh 0;
 }
 
-.menu-item h4, p {
-    width: 50%;
+.menu-item p {
+    width: 100%;
 }
 
 /* footer section */
