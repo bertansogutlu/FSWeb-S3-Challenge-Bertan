@@ -287,7 +287,6 @@ html, body{
     /* menu */
     .menu {
         background-image: none;
-        background-color: white;
     }
 
     .menu h2 {
@@ -295,6 +294,29 @@ html, body{
         color: rgb(0, 4, 17);
         font-size: 6rem;
         font-weight: light;
+    }
+
+    .menu-section {
+        width: auto;
+        background-color: rgb(225, 239, 230);
+    }
+
+    .menu-item {
+        flex-direction: column;
+    }
+
+    .menu-section h3 {
+        color: rgb(0, 4, 17);
+        text-align: center;
+        margin: 0;
+        padding: 0;  
+    }
+
+    .menu-item h4, p {
+        color: rgb(0, 4, 17);
+        text-align: center;
+        margin: 0;
+        padding: 0;
     }
 
 
