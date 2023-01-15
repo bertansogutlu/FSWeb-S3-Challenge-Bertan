@@ -305,11 +305,15 @@ html, body{
         flex-direction: column;
     }
 
+    .menu-section-container {
+        background-color: rgb(225, 239, 230);
+    }
+
     .menu-section h3 {
+        font-size: 5rem;
         color: rgb(0, 4, 17);
         text-align: center;
-        margin: 0;
-        padding: 0;  
+        border: 0.5rem solid rgb(0, 4, 17); 
     }
 
     .menu-item h4, p {
