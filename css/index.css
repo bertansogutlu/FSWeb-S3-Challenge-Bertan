@@ -353,12 +353,17 @@ footer .email-signup .mail button {
         height: auto;
     }
     
+    .gallery h2 {
+        padding-top: 5%;
+    }
+
     .gallery-container {
         flex-direction: column;
     }
 
     .gallery-container img {
         width: 100%;
+        margin: 5% 0;
     }
 
     /* about us section */
@@ -401,6 +406,21 @@ footer .email-signup .mail button {
 
     .contact a {
         display: block;
+    }
+
+    .toBeReplaced {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .toBeReplaced:after {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 17%;
+        content: "BİZE ULAŞIN";
+        text-align: center;
+        font-size: 5rem;
     }
 
     /* footer section */
