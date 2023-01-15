@@ -278,11 +278,26 @@ html, body{
         font-size: 3.5rem;
         display: block;
         font-weight: lighter;
+        color: rgb(225, 239, 230);
     }
 
     header .shortcut-bar ul {
         flex-direction: column;
     }
+
+    header .shortcut-bar a {
+        color: rgb(225, 239, 230);
+    }
+
+
+    header .social-media ul {
+        color: rgb(225, 239, 230);
+    }
+
+    header i {
+        color: rgb(225, 239, 230);
+    }
+
 
     /* menu */
     .menu {
