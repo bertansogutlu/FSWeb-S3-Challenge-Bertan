@@ -353,6 +353,14 @@ footer .email-signup .mail button {
         height: auto;
     }
     
+    .gallery-container {
+        flex-direction: column;
+    }
+
+    .gallery-container img {
+        width: 100%;
+    }
+
     /* about us section */
 
     .about {
@@ -391,10 +399,35 @@ footer .email-signup .mail button {
         padding-bottom: 2.5vh;
     }
 
+    .contact a {
+        display: block;
+    }
+
     /* footer section */
     footer {
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+        border: none;
+    }
+
+    footer .shortcut {
+        flex-wrap: wrap;
+    }
+
+    footer .shortcut-bar ul {
+        flex-direction: column;
+        gap: 1vh;
+    }
+
+    footer .email-signup .mail {
+        flex-direction: column;
+        scale: 1;
+    }
+
+    footer .copyright {
+        font-size: 1rem;
+        text-align: center;
+        padding: 0;
     }
 }
