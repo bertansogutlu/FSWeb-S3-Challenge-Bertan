@@ -252,10 +252,6 @@ footer .email-signup .mail button {
     padding-right: 12vw;
 }
 
-html, body{
-    width:100%;
-    overflow-x:hidden;
-    }
 
 /* mobile media query */
 @media (max-width: 428px) {
@@ -264,11 +260,6 @@ html, body{
         width: 100%;
         height: 80vh;
     }
-
-    html, body{
-        width:100%;
-        overflow-x:hidden;
-        }
 
     /* header section */
     .header-title {

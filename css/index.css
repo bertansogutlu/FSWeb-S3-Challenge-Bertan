@@ -329,11 +329,6 @@ footer .email-signup .mail button {
         height: 80vh;
     }
 
-    html, body{
-        width:100%;
-        overflow-x:hidden;
-        }
-
     /* header section */
     .header-title {
         width: 75%;
