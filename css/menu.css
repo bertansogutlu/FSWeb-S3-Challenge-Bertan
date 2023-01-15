@@ -188,7 +188,11 @@ header i {
     width: 50%;
     background-color: rgb(0, 4, 17, .8);
     padding: 3vw 7vw;
-    flex-grow: 1;
+}
+
+.menu-section-margin {
+    width: 25%;
+    background-color: rgb(0, 4, 17, .8);
 }
 
 .menu-item {
@@ -196,7 +200,6 @@ header i {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 1.5vh 0;
-    width: 40vw;
 }
 
 /* footer section */
