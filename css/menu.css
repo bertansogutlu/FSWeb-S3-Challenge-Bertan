@@ -160,6 +160,7 @@ header i {
     padding-top: 10vh;
     padding-bottom: 5vh;
     font-size: 4.5rem;
+    background-color: rgb(0, 4, 17, .8);
 }
 
 .menu h3 {
@@ -182,6 +183,7 @@ header i {
 
 .menu-section {
     width: 50%;
+    background-color: rgb(0, 4, 17, .8);
 }
 
 /* footer section */
