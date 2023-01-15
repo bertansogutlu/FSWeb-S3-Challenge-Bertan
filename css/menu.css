@@ -179,11 +179,13 @@ header i {
 .menu-section-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .menu-section {
     width: 50%;
     background-color: rgb(0, 4, 17, .8);
+    flex-grow: 1;
 }
 
 /* footer section */
